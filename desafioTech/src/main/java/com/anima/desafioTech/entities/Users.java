@@ -26,6 +26,7 @@ public class Users {
 	private String email;
 	@Column(name = "senha")
 	private String senha;
+	
 	public Long getId() {
 		return id;
 	}
