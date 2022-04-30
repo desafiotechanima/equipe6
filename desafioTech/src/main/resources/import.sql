@@ -1,1 +1,1 @@
-INSERT INTO tb_usuario(email, nome, senha) VALUES ('maria@gmail.com', 'maria','senha');
+INSERT INTO tb_users(email, senha) VALUES ('maria@gmail.com', '1234567');
