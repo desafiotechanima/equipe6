@@ -1,5 +1,5 @@
 package com.anima.desafioTech.entities;
 
-public class agenda {
+public class Agenda {
 
 }

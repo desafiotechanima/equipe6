@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "usuario")
-public class usuario {
+public class Usuario {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,11 +27,11 @@ public class usuario {
 	@Column(name = "senha", nullable = false, unique = true, length = 50)
 	private String senha;
 	
-	public usuario() {
+	public Usuario() {
 		
 	}
 
-	public usuario(Integer clientId, String email, String nome, String senha) {
+	public Usuario(Integer clientId, String email, String nome, String senha) {
 		this.clientId = clientId;
 		this.email = email;
 		this.nome = nome;
@@ -83,7 +83,7 @@ public class usuario {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		usuario other = (usuario) obj;
+		Usuario other = (Usuario) obj;
 		return Objects.equals(clientId, other.clientId) && Objects.equals(email, other.email)
 				&& Objects.equals(nome, other.nome) && Objects.equals(senha, other.senha);
 	}
