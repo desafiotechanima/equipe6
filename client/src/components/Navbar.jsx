@@ -4,11 +4,10 @@ const Navbar = () => {
 	return (
 		<NavbarWrapper>
 			<div className="navbar-brand">
-				<h1>Title</h1>
+				<h1>GestorTime</h1>
 			</div>
 			<div className="navbar-items">
-				<a href="/">Item 1</a>
-				<a href="/">Item 2</a>
+				<a href="/">Como usar?</a>
 				<a href="/" className="">
 					Login / Register
 				</a>

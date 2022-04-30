@@ -5,6 +5,7 @@ export const Container = styled.div`
 `;
 
 export const CalendarWrapper = styled.div`
+	padding: 5% 0;
 	@media (min-width: 768px) {
 		/* width: 50%; */
 		margin: 0 auto;
@@ -33,4 +34,9 @@ export const DescriptionWrapper = styled.div`
 	> h2 {
 		font-size: 1.5rem;
 	}
+`;
+
+export const DatesWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
 `;
